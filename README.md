@@ -3,10 +3,19 @@ Eterna is a simple tool for easy file encryption and decryption. With Eterna, yo
 
 
 ## Installation
-To install Eterna, simply run the following command in your terminal:
-```
-git clone https://github.com/Rann-Studio/Eterna.git
-```
+To install Eterna, follow these simple steps:
+1. Clone the repository to your local machine by running the following command in your terminal:
+
+    ```
+    git clone https://github.com/Rann-Studio/Eterna.git
+    ```
+
+2. Once the repository has been cloned, navigate to the repository directory and run the following command to install the required packages:
+
+    ```
+    pip install -r requirements.txt
+    ```
+
 
 ## Usage
 To use Eterna, run the following command in your terminal:
@@ -23,6 +32,7 @@ The available options for Eterna are:
 -o OUTPUT, --output OUTPUT  Output file path
 -k KEY, --key KEY           Key file path
 ```
+
 
 ## Example
 To encrypt a file, run the following command:
