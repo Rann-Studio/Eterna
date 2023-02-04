@@ -44,3 +44,5 @@ To decrypt a file, run the following command:
 ```
 python eterna.py -d -i example.enc
 ```
+
+**NOTE:** It is important to keep the key used for encryption and decryption secure, as anyone who has access to the key will be able to decrypt your encrypted files.
