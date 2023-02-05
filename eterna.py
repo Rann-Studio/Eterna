@@ -3,7 +3,6 @@ import sys
 import struct
 import argparse
 from Crypto.Cipher import AES
-from Crypto.Util import Padding
 from Crypto.Random import get_random_bytes
 
 
@@ -69,9 +68,9 @@ if __name__ == '__main__':
     group.add_argument('-e', '--encrypt', action='store_true', help='Encrypt the input file')
     group.add_argument('-d', '--decrypt', action='store_true', help='Decrypt the input file')
 
-    parser.add_argument('-i', '--input', required=True, help='Input file path')
-    parser.add_argument('-o', '--output', help='Output file path')
-    parser.add_argument('-k', '--key', help='Key file path')
+    parser.add_argument('-i', '--input', required=True, help='Input file name')
+    parser.add_argument('-o', '--output', help='Output file name')
+    parser.add_argument('-k', '--key', help='Key file name')
 
     args = parser.parse_args()
 
